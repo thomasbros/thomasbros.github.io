@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>(loading petals)</title>
+		<link rel="stylesheet" type="text/css" href="/css/basic.css">
+        <script src="/js/snap.svg.js"></script>		
+        <script>
+        window.onload = function () {
+            //Create the canvas by targeting a DIV
+			var s = Snap("#mysvg");
+			//Create a group object
+			var all = s.group();
+
+			//Load a petal SVG file
+			var pet = Snap.load("/img/petal_v0.3.svg", function (loadedFragment) {
+				all.append(loadedFragment);
+				all.select('#petal01').attr({
+					fill: 'white',
+					stroke: 'black',
+					strokeWidth: 3
+					});
+				all.select('#smile').attr({
+					fill: 'red',
+					stroke: 'black',
+					strokeWidth: 2
+					});
+				all.select('#face').attr({
+					fill: 'orange',
+					stroke: 'black',
+					strokeWidth: 2
+					});
+				all.select('#leftEye').attr({
+					fill: '#d3d3d3',
+					stroke: 'black',
+					strokeWidth: 3
+					});
+
+				//copy eye 
+				all.select('#leftEye').clone().transform( 't35' );
+				//clone and rotate petals
+				all.select('#petal01').clone().transform( 'r32.72,150,150' );
+				all.select('#petal01').clone().transform( 'r65.44,150,150' );
+				all.select('#petal01').clone().transform( 'r98.16,150,150' );
+				all.select('#petal01').clone().transform( 'r130.88,150,150' );
+				all.select('#petal01').clone().transform( 'r163.6,150,150' );												
+				all.select('#petal01').clone().transform( 'r196.32,150,150' );												
+				all.select('#petal01').clone().transform( 'r229.04,150,150' );												
+				all.select('#petal01').clone().transform( 'r261.76,150,150' );												
+				all.select('#petal01').clone().transform( 'r294.48,150,150' );												
+				all.select('#petal01').clone().transform( 'r327.2,150,150' );										
+
+
+				//clone figure
+				pet02 = all.clone().transform( 't220,s0.6' );
+
+				pet03 = all.clone().transform( 't0,180,s0.3' );
+
+			});
+
+			
+		};
+		
+        </script>
+    </head>
+    <body>
+		  <div id="center-div">
+			  <svg id="mysvg" width="500" height="500"></svg>
+		  </div>
+    </body>
+</html>

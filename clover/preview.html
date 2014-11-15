@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>(Grouping and overlaying SVG)</title>
+		<link rel="stylesheet" type="text/css" href="/css/basic.css">
+        <script src="/js/snap.svg.js"></script>		
+        <script>
+        window.onload = function () {
+            //Create the canvas by targeting a DIV
+			var s = Snap("#mysvg");
+			//Create a group object
+			var all = s.group();
+
+			//Create an outer circle
+			var outer = s.circle(160,160,150).attr({
+				// stroke: 'red',
+				fill: 'blue'
+				// strokeDasharray: "10 40 10"
+			});
+			all.append(outer)
+
+			//Load the cloverleaf SVG file and scale/transform 
+			//it into place over
+			var clover = Snap.load("/img/clover_v0.4.svg", function (loadedFragment) {
+				all.append(loadedFragment);
+				all.select('#clover_1').transform('s0.88t10,10').attr({
+					fill: 'white'
+					// stroke: 'green',
+					}); //update the fills at load. This would be a good place
+					//to write a function that adapts color to external data
+				all.select('#inner').transform('s0.40').attr({
+					fill: 'blue'
+					// stroke: '#123456',
+					// strokeDasharray: "10 40 10"
+					}); //Or this does the same thing passing one objec;
+				});			
+				
+			//call the rotation animation
+			cloverAnimBasic();
+
+			//define functions for constant rotation
+			function cloverAnimBasic(){
+				all.stop().animate(
+					{ transform: 'r360,160,160'}, // Basic rotation around a point. No frills.
+					9000, // Nice slow turning animation
+					function(){ 
+						all.attr({ transform: 'rotate(0 160 160)'}); // Reset the position to 0
+						cloverAnimBasic(); // Repeat this animation so it appears infinite.
+					}
+				);
+
+			}
+
+		};
+        </script>
+    </head>
+    <body>
+		  <div id="center-div">
+			  <svg id="mysvg" width="400" height="400"></svg>
+		  </div>
+    </body>
+</html>

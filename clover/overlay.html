@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>(Grouping and overlaying SVG)</title>
+		<link rel="stylesheet" type="text/css" href="/css/basic.css">
+        <script src="/js/snap.svg.js"></script>		
+        <script>
+        window.onload = function () {
+            //Create the canvas by targeting a DIV
+			var s = Snap("#mysvg");
+			//Create a group object
+			var all = s.group();
+
+			//Create an outer circle
+			var outer = s.circle(160,160,150).attr({
+				stroke: 'red',
+				strokeWidth: 10,
+				fill: 'orange',
+				strokeDasharray: "10 40 10"
+			});
+			all.append(outer)
+
+			//Load the cloverleaf SVG file and scale/transform 
+			//it into place over
+			var clover = Snap.load("/img/clover_v0.4.svg", function (loadedFragment) {
+				all.append(loadedFragment);
+				all.select('#clover_1').transform('s0.85t10,10');
+				all.select('#inner').transform('s0.65').attr({
+					stroke: '#123456',
+					strokeWidth: 10,
+					strokeDasharray: "10 40 10"					
+					}); //Or this does the same thing passing one objec;
+				all.hover(hoverover, hoverout);
+				});			
+
+
+			//define functions for hovering
+			var hoverover = function() { all.animate({ transform: 's1.3r20,150,150' }, 2000, mina.bounce ) };
+			var hoverout = function() { all.animate({ transform: 's1r0,150,150' }, 2000, mina.bounce ) };
+
+
+		};
+        </script>
+    </head>
+    <body>
+		  <div id="center-div">
+			  <svg id="mysvg" width="400" height="400"></svg>
+		  </div>
+    </body>
+</html>

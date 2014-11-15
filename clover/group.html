@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Appliance (Grouping and animating SVG)</title>
+		<link rel="stylesheet" type="text/css" href="/css/basic.css">
+        <script src="/js/snap.svg.js"></script>		
+        <script>
+        window.onload = function () {
+            //Create the canvas by targeting a DIV
+			var s = Snap("#mysvg");
+			//Create some basic shapes
+			var outer = s.rect(10,10,300,300).attr({ stroke: '#123456', strokeWidth: 10, fill: 'blue' });
+			var inner = s.circle(160,160,100).attr({
+				stroke: 'red', 
+				strokeWidth: 20,
+				fill: 'orange',
+				strokeDasharray: "10 40 10"
+			});
+			//create a group from shapes
+			var all = s.group(outer,inner);
+			//animate the shapes
+			all.animate({ transform: 'r90,160,160' }, 5000, mina.bounce );
+		};
+        </script>
+    </head>
+    <body>
+		  <div id="center-div">
+			  <svg id="mysvg" width="400" height="400"></svg>
+		  </div>
+    </body>
+</html>

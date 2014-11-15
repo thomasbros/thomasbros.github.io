@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="graphic_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px"
+	 height="300px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#754C29;stroke:#2B2F84;stroke-width:0.25;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#2B2F84;stroke-width:0.25;stroke-miterlimit:10;}
+	.st2{fill:#1C75BC;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st3{fill:#27AAE1;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st4{fill:#603913;stroke:#2B2F84;stroke-width:0.25;stroke-miterlimit:10;}
+	.st5{fill:#8DC63F;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+]]>
+</style>
+	<path id="clover_1" class="st5" d="M236,87.1c-12.4,0.2-23.8,4-33.4,10.3c6.5-9.9,10.3-21.8,10.3-34.5C212.9,28.2,184.7,0,150,0
+		S87.1,28.2,87.1,62.9c0,12.8,3.8,24.6,10.3,34.5c-9.9-6.5-21.8-10.3-34.5-10.3C28.2,87.1,0,115.3,0,150c0,34.7,28.2,62.9,62.9,62.9
+		c12.8,0,24.6-3.8,34.5-10.3c-6.5,9.9-10.3,21.8-10.3,34.5c0,34.7,28.2,62.9,62.9,62.9s62.9-28.2,62.9-62.9
+		c0-12.7-3.8-24.6-10.3-34.5c10.2,6.7,22.5,10.5,35.6,10.3c34.7-0.6,62.4-29.3,61.8-64C299.4,114.2,270.7,86.5,236,87.1z"/>
+</svg>
