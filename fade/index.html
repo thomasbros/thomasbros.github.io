@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>(testing fades)</title>
+		<link rel="stylesheet" type="text/css" href="/css/basic.css">
+        <script src="/js/snap.svg.js"></script>		
+        <script>
+        window.onload = function () {
+            //Create the canvas by targeting a DIV
+			var s = Snap("#mysvg");
+			
+			
+			//Basic for loop for fading
+
+
+
+			for ( i=0; i<10; i++) {
+				if (i < 9) {
+					console.log("at step " + i);
+					
+				} else {
+					console.log("at step " + i + " ...all done");
+					}
+				}
+			
+			//Define animation functions
+			var anim1 = function() {
+			    c.animate({opacity : '0'}, 1000, mina.linear, anim2);
+			}
+
+			var anim2 = function() {
+			    c1.animate({opacity : '0'}, 1000, mina.linear, anim3);
+			}
+
+			var anim3 = function() {
+			    c2.animate({opacity : '0'}, 1000, mina.linear);
+			}
+
+			//Define objects to fade
+			var c = s.circle(100,100,40).attr({ stroke: '#123456', 'strokeWidth': 10, fill: 'blue' });
+			var c1 = c.clone().transform('t100');
+			var c2 = c.clone().transform('t200');;
+			
+			//call animation function
+			anim1();
+			
+		};		
+        </script>
+    </head>
+    <body>
+		  <div id="center-div">
+			  <svg id="mysvg" width="400" height="400"></svg>
+		  </div>
+    </body>
+</html>
