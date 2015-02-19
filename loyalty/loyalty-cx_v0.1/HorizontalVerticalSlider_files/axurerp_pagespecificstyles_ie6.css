@@ -1,0 +1,15 @@
+﻿* html .u8_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="HorizontalVerticalSlider_files/u8_normal.png");
+}
+
+* html .u24_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="HorizontalVerticalSlider_files/u24_normal.png");
+}
+
+* html .u26_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="HorizontalVerticalSlider_files/u26_normal.png");
+}
+
