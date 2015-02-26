@@ -1,4 +1,4 @@
-﻿for(var i = 0; i < 373; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+﻿for(var i = 0; i < 375; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
 
 $axure.eventManager.pageLoad(
 function (e) {
@@ -1700,7 +1700,19 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u372'] = 'top';gv_vAlignTable['u330'] = 'center';gv_vAlignTable['u332'] = 'center';gv_vAlignTable['u334'] = 'center';gv_vAlignTable['u335'] = 'top';gv_vAlignTable['u336'] = 'top';gv_vAlignTable['u337'] = 'top';gv_vAlignTable['u338'] = 'top';gv_vAlignTable['u339'] = 'top';gv_vAlignTable['u370'] = 'top';gv_vAlignTable['u371'] = 'top';gv_vAlignTable['u240'] = 'center';gv_vAlignTable['u241'] = 'top';gv_vAlignTable['u242'] = 'top';gv_vAlignTable['u243'] = 'top';gv_vAlignTable['u244'] = 'top';gv_vAlignTable['u245'] = 'top';gv_vAlignTable['u298'] = 'top';gv_vAlignTable['u299'] = 'top';gv_vAlignTable['u11'] = 'center';gv_vAlignTable['u13'] = 'center';gv_vAlignTable['u15'] = 'center';gv_vAlignTable['u16'] = 'top';gv_vAlignTable['u17'] = 'top';gv_vAlignTable['u18'] = 'top';gv_vAlignTable['u19'] = 'top';gv_vAlignTable['u346'] = 'center';gv_vAlignTable['u347'] = 'top';document.getElementById('u348_img').tabIndex = 0;
+gv_vAlignTable['u372'] = 'top';document.getElementById('u373_img').tabIndex = 0;
+HookHover('u373', false);
+
+u373.style.cursor = 'pointer';
+$axure.eventManager.click('u373', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('ServiceMapBrowser.html');
+
+}
+});
+gv_vAlignTable['u374'] = 'center';gv_vAlignTable['u330'] = 'center';gv_vAlignTable['u332'] = 'center';gv_vAlignTable['u334'] = 'center';gv_vAlignTable['u335'] = 'top';gv_vAlignTable['u336'] = 'top';gv_vAlignTable['u337'] = 'top';gv_vAlignTable['u338'] = 'top';gv_vAlignTable['u339'] = 'top';gv_vAlignTable['u370'] = 'top';gv_vAlignTable['u371'] = 'top';gv_vAlignTable['u240'] = 'center';gv_vAlignTable['u241'] = 'top';gv_vAlignTable['u242'] = 'top';gv_vAlignTable['u243'] = 'top';gv_vAlignTable['u244'] = 'top';gv_vAlignTable['u245'] = 'top';gv_vAlignTable['u298'] = 'top';gv_vAlignTable['u299'] = 'top';gv_vAlignTable['u11'] = 'center';gv_vAlignTable['u13'] = 'center';gv_vAlignTable['u15'] = 'center';gv_vAlignTable['u16'] = 'top';gv_vAlignTable['u17'] = 'top';gv_vAlignTable['u18'] = 'top';gv_vAlignTable['u19'] = 'top';gv_vAlignTable['u346'] = 'center';gv_vAlignTable['u347'] = 'top';document.getElementById('u348_img').tabIndex = 0;
 
 u348.style.cursor = 'pointer';
 $axure.eventManager.click('u348', function(e) {

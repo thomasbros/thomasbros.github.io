@@ -5933,3 +5933,41 @@ div {
     word-wrap:break-word;
 }
 
+.u373_mouseOver {
+    background-image: url('../CX-Crawl-OnOff_files/u373_mouseOver.png');
+}
+
+.u373_normal {
+    background-image: url('../CX-Crawl-OnOff_files/u373_normal.png');
+}
+
+.u373_container {
+    position:absolute;
+    left:10px;
+    top:28px;
+    width:74px;
+    height:34px;
+}
+
+#u373_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:80px;
+    height:40px;
+}
+
+.u374 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:70px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

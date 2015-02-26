@@ -423,3 +423,13 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="CX-Crawl-OnOff_files/u368_normal.png");
 }
 
+* html .u373_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="CX-Crawl-OnOff_files/u373_mouseOver.png");
+}
+
+* html .u373_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="CX-Crawl-OnOff_files/u373_normal.png");
+}
+
