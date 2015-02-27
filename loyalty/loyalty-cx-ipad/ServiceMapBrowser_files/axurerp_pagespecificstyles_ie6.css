@@ -1,25 +1,25 @@
-﻿* html .u0_normal {
+﻿* html .u1_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u0_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u1_normal.png");
 }
 
-* html .u2_mouseOver {
+* html .u3_mouseOver {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u2_mouseOver.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u3_mouseOver.png");
 }
 
-* html .u2_normal {
+* html .u3_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u2_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u3_normal.png");
 }
 
-* html .u4_mouseOver {
+* html .u5_mouseOver {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u4_mouseOver.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u5_mouseOver.png");
 }
 
-* html .u4_normal {
+* html .u5_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u4_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ServiceMapBrowser_files/u5_normal.png");
 }
 
