@@ -146,3 +146,16 @@ div {
     word-wrap:break-word;
 }
 
+#u7 {
+    position:absolute;
+    left:489px;
+    top:420px;
+    width:414px;
+    height:309px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+

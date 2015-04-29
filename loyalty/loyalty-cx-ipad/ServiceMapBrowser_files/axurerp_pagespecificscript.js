@@ -1,4 +1,4 @@
-﻿for(var i = 0; i < 7; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+﻿for(var i = 0; i < 8; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
 
 $axure.eventManager.pageLoad(
 function (e) {
@@ -12,7 +12,7 @@ $axure.eventManager.click('u3', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('CX-Crawl-OnOff.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('MENA-Crawl-OnOff.html');
 
 }
 });
@@ -28,4 +28,14 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u6'] = 'center';
+gv_vAlignTable['u6'] = 'center';u7.tabIndex = 0;
+
+u7.style.cursor = 'pointer';
+$axure.eventManager.click('u7', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('Home.html');
+
+}
+});
