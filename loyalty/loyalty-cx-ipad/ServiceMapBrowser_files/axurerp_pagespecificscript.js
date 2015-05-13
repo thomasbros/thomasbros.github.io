@@ -24,7 +24,7 @@ $axure.eventManager.click('u5', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Home.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('index.html');
 
 }
 });
@@ -35,7 +35,7 @@ $axure.eventManager.click('u7', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Home.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('index.html');
 
 }
 });

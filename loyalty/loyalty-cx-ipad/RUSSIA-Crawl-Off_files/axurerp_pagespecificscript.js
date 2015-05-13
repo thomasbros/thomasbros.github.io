@@ -563,7 +563,7 @@ $axure.eventManager.click('u145', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Home.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('index.html');
 
 }
 });
