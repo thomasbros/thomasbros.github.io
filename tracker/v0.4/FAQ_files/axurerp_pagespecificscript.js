@@ -1,10 +1,10 @@
-﻿for(var i = 0; i < 17; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+﻿for(var i = 0; i < 23; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
 
 $axure.eventManager.pageLoad(
 function (e) {
 
 });
-gv_vAlignTable['u16'] = 'top';u14.tabIndex = 0;
+gv_vAlignTable['u18'] = 'center';gv_vAlignTable['u16'] = 'top';u14.tabIndex = 0;
 
 u14.style.cursor = 'pointer';
 $axure.eventManager.click('u14', function(e) {
@@ -36,4 +36,4 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u8'] = 'center';
+gv_vAlignTable['u8'] = 'center';gv_vAlignTable['u20'] = 'center';gv_vAlignTable['u21'] = 'top';

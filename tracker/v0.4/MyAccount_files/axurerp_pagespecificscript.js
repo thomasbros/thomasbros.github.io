@@ -1,10 +1,10 @@
-﻿for(var i = 0; i < 13; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+﻿for(var i = 0; i < 19; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
 
 $axure.eventManager.pageLoad(
 function (e) {
 
 });
-u10.tabIndex = 0;
+gv_vAlignTable['u17'] = 'top';gv_vAlignTable['u16'] = 'center';gv_vAlignTable['u14'] = 'center';u10.tabIndex = 0;
 
 u10.style.cursor = 'pointer';
 $axure.eventManager.click('u10', function(e) {

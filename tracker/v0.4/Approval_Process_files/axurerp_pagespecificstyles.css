@@ -2461,3 +2461,85 @@ div {
     word-wrap:break-word;
 }
 
+.u152_normal {
+    background-image: url('../PageFooter_files/u25_normal.png');
+}
+
+.u152_container {
+    position:absolute;
+    left:0px;
+    top:1415px;
+    width:750px;
+    height:352px;
+}
+
+#u152_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:750px;
+    height:352px;
+}
+
+.u153 {
+    position:absolute;
+    left:2px;
+    top:168px;
+    width:746px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u154_normal {
+    background-image: url('../PageFooter_files/u27_normal.png');
+}
+
+.u154_container {
+    position:absolute;
+    left:39px;
+    top:1441px;
+    width:232px;
+    height:64px;
+}
+
+#u154_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:232px;
+    height:64px;
+}
+
+.u155 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:228px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u156 {
+    position:absolute;
+    left:39px;
+    top:1530px;
+    width:672px;
+    height:215px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
