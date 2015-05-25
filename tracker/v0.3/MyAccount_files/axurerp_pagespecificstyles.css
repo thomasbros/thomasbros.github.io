@@ -1,0 +1,214 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../MyAccount_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:0px;
+    top:128px;
+    width:750px;
+    height:1206px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:756px;
+    height:1212px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:595px;
+    width:746px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:118px;
+    top:515px;
+    width:514px;
+    height:432px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../PageHeader_files/u0_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:0px;
+    top:8px;
+    width:750px;
+    height:120px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:756px;
+    height:126px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:52px;
+    width:746px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../PageHeader_files/u2_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:641px;
+    top:31px;
+    width:78px;
+    height:78px;
+}
+
+#u5_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:78px;
+    height:78px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:31px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../PageHeader_files/u4_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:24px;
+    top:35px;
+    width:69px;
+    height:69px;
+}
+
+#u7_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:69px;
+    height:69px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:26px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u9 {
+    position:absolute;
+    left:0px;
+    top:8px;
+    width:140px;
+    height:120px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u10 {
+    position:absolute;
+    left:610px;
+    top:8px;
+    width:140px;
+    height:120px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u12 {
+    position:absolute;
+    left:162px;
+    top:24px;
+    width:457px;
+    height:43px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
