@@ -156,3 +156,16 @@ div {
     overflow:hidden;
 }
 
+#u8 {
+    position:absolute;
+    left:388px;
+    top:0px;
+    width:181px;
+    height:180px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
