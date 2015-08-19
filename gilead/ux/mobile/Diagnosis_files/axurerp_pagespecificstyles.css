@@ -1,0 +1,214 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../PageHeader_files/u5_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:750px;
+    height:120px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:750px;
+    height:120px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:52px;
+    width:746px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../PageHeader_files/u7_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:641px;
+    top:23px;
+    width:78px;
+    height:78px;
+}
+
+#u2_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:78px;
+    height:78px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:31px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../PageHeader_files/u9_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:24px;
+    top:27px;
+    width:69px;
+    height:69px;
+}
+
+#u4_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:69px;
+    height:69px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:26px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u6 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:140px;
+    height:120px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u7 {
+    position:absolute;
+    left:610px;
+    top:0px;
+    width:140px;
+    height:120px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u9 {
+    position:absolute;
+    left:162px;
+    top:21px;
+    width:457px;
+    height:86px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../Diagnosis_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:0px;
+    top:120px;
+    width:750px;
+    height:1214px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:756px;
+    height:1220px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:599px;
+    width:746px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:74px;
+    top:576px;
+    width:614px;
+    height:288px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
