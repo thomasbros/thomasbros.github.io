@@ -43,7 +43,7 @@ $axure.eventManager.click('u20', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Articles.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('ArticleSection.html');
 
 }
 });
@@ -101,7 +101,7 @@ $axure.eventManager.click('u77', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Articles.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('ArticleSection.html');
 
 }
 });

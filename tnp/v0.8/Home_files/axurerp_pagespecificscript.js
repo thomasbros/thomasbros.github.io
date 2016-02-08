@@ -1,4 +1,4 @@
-﻿for(var i = 0; i < 57; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+﻿for(var i = 0; i < 59; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
 
 $axure.eventManager.pageLoad(
 function (e) {
@@ -36,25 +36,25 @@ if (true) {
 }
 
 }
-document.getElementById('u50_img').tabIndex = 0;
+gv_vAlignTable['u52'] = 'top';document.getElementById('u53_img').tabIndex = 0;
 
-u50.style.cursor = 'pointer';
-$axure.eventManager.click('u50', function(e) {
+u53.style.cursor = 'pointer';
+$axure.eventManager.click('u53', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Articles.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('Places.html');
 
 }
 });
-gv_vAlignTable['u51'] = 'center';gv_vAlignTable['u53'] = 'center';gv_vAlignTable['u55'] = 'center';document.getElementById('u20_img').tabIndex = 0;
+gv_vAlignTable['u54'] = 'center';gv_vAlignTable['u56'] = 'center';gv_vAlignTable['u58'] = 'center';document.getElementById('u20_img').tabIndex = 0;
 
 u20.style.cursor = 'pointer';
 $axure.eventManager.click('u20', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Articles.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('ArticleSection.html');
 
 }
 });
@@ -94,14 +94,14 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u36'] = 'top';gv_vAlignTable['u38'] = 'center';gv_vAlignTable['u39'] = 'top';gv_vAlignTable['u2'] = 'center';gv_vAlignTable['u4'] = 'center';gv_vAlignTable['u6'] = 'center';gv_vAlignTable['u7'] = 'top';gv_vAlignTable['u9'] = 'center';gv_vAlignTable['u41'] = 'top';gv_vAlignTable['u45'] = 'top';gv_vAlignTable['u43'] = 'top';document.getElementById('u48_img').tabIndex = 0;
+gv_vAlignTable['u36'] = 'center';gv_vAlignTable['u37'] = 'top';gv_vAlignTable['u39'] = 'top';gv_vAlignTable['u2'] = 'center';gv_vAlignTable['u4'] = 'center';gv_vAlignTable['u6'] = 'center';gv_vAlignTable['u7'] = 'top';gv_vAlignTable['u9'] = 'center';gv_vAlignTable['u41'] = 'top';gv_vAlignTable['u45'] = 'center';gv_vAlignTable['u43'] = 'top';document.getElementById('u44_img').tabIndex = 0;
 
-u48.style.cursor = 'pointer';
-$axure.eventManager.click('u48', function(e) {
+u44.style.cursor = 'pointer';
+$axure.eventManager.click('u44', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Places.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('Join.html');
 
 }
 });
@@ -112,7 +112,7 @@ $axure.eventManager.click('u46', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('Join.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('ArticleSection.html');
 
 }
 });

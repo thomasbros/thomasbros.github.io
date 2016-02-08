@@ -108,24 +108,24 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="PageHeader_files/btnMenuIcon_u32_normal.png");
 }
 
-* html .u35_normal {
+* html .u38_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u35_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u38_normal.png");
 }
 
 * html .u40_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u40_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u38_normal.png");
 }
 
 * html .u42_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u40_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u42_normal.png");
 }
 
 * html .u44_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u35_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u44_normal.png");
 }
 
 * html .u46_normal {
@@ -135,21 +135,21 @@
 
 * html .u48_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u48_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="PageFooter_files/btnHomeTab_u48_normal.png");
 }
 
-* html .u50_normal {
+* html .u53_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u48_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u53_normal.png");
 }
 
-* html .u52_normal {
+* html .u55_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u48_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u46_normal.png");
 }
 
-* html .u54_normal {
+* html .u57_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="PageFooter_files/btnHomeTab_u54_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Home_files/u57_normal.png");
 }
 
